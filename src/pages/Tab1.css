@@ -1,0 +1,138 @@
+.room-disponible
+{
+    padding: 16px;
+    border: 2px solid #00B383;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.room-disponible .time
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.room-disponible .time .circle
+{
+    background-color: #00B383;
+    width: 16px;
+    height: 16px;
+    border-radius: 9999px;
+}
+
+.room-disponible .info-calendar-txt
+{
+    display: grid;
+    text-align: left;
+    gap: 8px;
+}
+
+.room-disponible .time h3, .room-disponible .info-calendar-txt h2
+{
+    color: rgb(90, 90, 90);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.room-disponible .info-calendar-txt h1
+{
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Reserved */
+
+.room-reserved
+{
+    padding: 16px;
+    border: 2px solid #FFC107;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.room-reserved .time
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.room-reserved .time .circle
+{
+    background-color: #FFC107;
+    width: 16px;
+    height: 16px;
+    border-radius: 9999px;
+}
+
+.room-reserved .info-calendar-txt
+{
+    display: grid;
+    text-align: left;
+    gap: 8px;
+}
+
+.room-reserved .time h3, .room-reserved .info-calendar-txt h2
+{
+    color: rgb(90, 90, 90);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.room-reserved .info-calendar-txt h1
+{
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Ocuped */
+
+.room-ocuped
+{
+    padding: 16px;
+    border: 2px solid #C65647;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.room-ocuped .time
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.room-ocuped .time .circle
+{
+    background-color: #C65647;
+    width: 16px;
+    height: 16px;
+    border-radius: 9999px;
+}
+
+.room-ocuped .info-calendar-txt
+{
+    display: grid;
+    text-align: left;
+    gap: 8px;
+}
+
+.room-ocuped .time h3, .room-ocuped .info-calendar-txt h2
+{
+    color: rgb(90, 90, 90);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.room-ocuped .info-calendar-txt h1
+{
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+    font-weight: 600;
+}
